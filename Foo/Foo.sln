@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InversionComparison", "Inve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maxSubArray", "maxSubArray\maxSubArray.csproj", "{6D2B8EB7-055C-484D-BD25-8A414113FD70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixMultiplication", "MatrixMultiplication\MatrixMultiplication.csproj", "{88A036FD-71B7-4E88-9F9A-3CD5C55FED08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6D2B8EB7-055C-484D-BD25-8A414113FD70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D2B8EB7-055C-484D-BD25-8A414113FD70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D2B8EB7-055C-484D-BD25-8A414113FD70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A036FD-71B7-4E88-9F9A-3CD5C55FED08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A036FD-71B7-4E88-9F9A-3CD5C55FED08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A036FD-71B7-4E88-9F9A-3CD5C55FED08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A036FD-71B7-4E88-9F9A-3CD5C55FED08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
