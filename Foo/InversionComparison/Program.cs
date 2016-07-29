@@ -1,11 +1,11 @@
 ﻿/* 
  * @auth Steven J Carver
  * 
- * Practical Application of the relationship between the running time of insertion sort and the number of inversions in an input array
+ * Practical Application of the relationship between the insertion sort vs merge sort and the number of inversions for each input array
  * 
  * Inversion Comparison
- *  - number of inversions for a running time of O(n * lg n)
- *  - number of inversions for a running time of O(n^2)
+ *  - number of inversions for a running time of O(n * lg n) Merge Sort
+ *  - number of inversions for a running time of O(n^2) Inversion Sort
  */
 
 using System;
@@ -31,7 +31,7 @@ namespace InversionComparison
             int value = mergeSort(iArray, 0, iArray.Length - 1); // Time Complexity O(nln(n))
             stopwatch.Stop();
 
-            Console.WriteLine("Inversion: " + value + " Time((O(n*ln(n))): " + stopwatch.ElapsedMilliseconds.ToString() + " ms");
+            Console.WriteLine("Merge Sort Inversion: " + value + " Time((O(n*ln(n))): " + stopwatch.ElapsedMilliseconds.ToString() + " ms");
             Console.ReadLine();
 
             int[] iArray2 = new int[] { 1, 20, 6, 4, 5 };
@@ -43,7 +43,7 @@ namespace InversionComparison
             int value2 = getInvCountnSqr(iArray2); // Time Complexity O(n^2)
             stopwatch.Stop();
 
-            Console.WriteLine("Inversion: " + value2 + " Time(O(n^2)): " + stopwatch.ElapsedMilliseconds.ToString() + " ms");
+            Console.WriteLine(" Insertion Sort Inversion: " + value2 + " Time(O(n^2)): " + stopwatch.ElapsedMilliseconds.ToString() + " ms");
             Console.ReadLine();
 
         }
@@ -123,7 +123,7 @@ namespace InversionComparison
         }
 
 
-        // Simple inversion counter
+        // Simple Insertion inversion counter
         private static int getInvCountnSqr(int[] array){
 
             int iCount = 0;
