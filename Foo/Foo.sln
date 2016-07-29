@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maxSubArray", "maxSubArray\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixMultiplication", "MatrixMultiplication\MatrixMultiplication.csproj", "{88A036FD-71B7-4E88-9F9A-3CD5C55FED08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRadix", "GenericRadix\GenericRadix.csproj", "{B3CCEE1F-03D2-4132-9EB7-B5993F061D7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CutRod", "CutRod\CutRod.csproj", "{6BF7130D-74C8-4C87-B43D-C98DABA0060A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{88A036FD-71B7-4E88-9F9A-3CD5C55FED08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88A036FD-71B7-4E88-9F9A-3CD5C55FED08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88A036FD-71B7-4E88-9F9A-3CD5C55FED08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3CCEE1F-03D2-4132-9EB7-B5993F061D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3CCEE1F-03D2-4132-9EB7-B5993F061D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3CCEE1F-03D2-4132-9EB7-B5993F061D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3CCEE1F-03D2-4132-9EB7-B5993F061D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BF7130D-74C8-4C87-B43D-C98DABA0060A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF7130D-74C8-4C87-B43D-C98DABA0060A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF7130D-74C8-4C87-B43D-C98DABA0060A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF7130D-74C8-4C87-B43D-C98DABA0060A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
